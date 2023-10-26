@@ -1,0 +1,23 @@
+html.dark {
+	--c-base: #1e222b;
+	--c-text: white;
+	--c-acent: #2d2d41;
+}
+
+html.light {
+	--c-base: #f8f8f8;
+	--c-text: #1e222b;
+	--c-acent: #5f5f9e;
+}
+
+body {
+	background-color: var(--c-base);
+	color: var(--c-text);
+}
+
+.container {
+	--_padding-w: 2rem;
+	--_max-w: 65rem;
+	width: min(calc(100% - var(--_padding-w)), var(--_max-w));
+	margin-inline: auto;
+}

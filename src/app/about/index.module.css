@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+}
+.aside {
+    flex: .25;
+}
+
+.mainSection {
+    flex: 1;
+}

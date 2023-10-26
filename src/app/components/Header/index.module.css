@@ -1,0 +1,25 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 2rem;
+}
+
+.nav {
+
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navList > li:nth-child(2) {
+    margin-right: auto;
+}
+
+.searchInput {
+    margin-right: auto;
+}

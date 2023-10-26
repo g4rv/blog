@@ -1,0 +1,31 @@
+.img {
+    --_img-aspect-r: 80px;
+    width: var(--_img-aspect-r);
+    height: var(--_img-aspect-r);
+    border-radius: 50%;
+}
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.info {
+    font-size: 1.15rem;
+}
+
+.info span{
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-block: 1rem;
+}
+
+.socials a {
+    width: fit-content;
+}
